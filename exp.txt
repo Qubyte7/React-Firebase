@@ -1,0 +1,42 @@
+----------------------------------pages/create-post/form---------------------------------------------------
+import {addDoc,collection} from 'firebase/firestore'
+
+                ==>addDoc :used to add A document to our firebase Store
+                ==>collection:is a function that is used to specify the collection that we want to add document to
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
