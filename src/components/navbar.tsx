@@ -10,19 +10,18 @@ export const Navbar = () => {
   const signUserOut = async () => {
     await signOut(auth);
   };
-
+ 
   return (
     <nav className="navbar-container">
       <ul className="navbar-menu">
         <li className="navbar-item">
-          <Link to="/" className="navbar-link">
-            Home
-          </Link>
+          <Link to="/" className="navbar-link">Home</Link>
         </li>
+       {!user &&  <li className="navbar-item">
+          <Link to="/login" className="navbar-link">Login</Link>
+        </li>}
         <li className="navbar-item">
-          <Link to="/login" className="navbar-link">
-            Login
-          </Link>
+          <Link to="/createPost" className="navbar-link">Create post</Link>
         </li>
       </ul>
 

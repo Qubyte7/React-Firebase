@@ -5,6 +5,7 @@ import { Main  } from './pages/main';
 import { Error } from './pages/erro';
 import { Login } from './pages/login';
 import { Navbar } from './components/navbar';
+import { CreatePost } from './pages/create-post/CreatePost';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Route path='/' element={<Main />}/>
       <Route path='*' element={<Error />} />
       <Route path='/login' element={<Login />} />
+      <Route path='/createPost' element={<CreatePost />} />
+   
     </Routes>
   </Router>
     </div>
