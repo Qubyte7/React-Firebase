@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+/* navbar.css */
+
+.navbar-container {
+  background-color: #f8f9fa;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.navbar-item {
+  margin: 0;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-link:hover {
+  background-color: #e9ecef;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-email {
+  margin-right: 16px;
+}
+
+.user-photo {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
